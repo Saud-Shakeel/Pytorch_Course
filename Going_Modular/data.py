@@ -25,5 +25,3 @@ def download_data(source_url, data_folder_name):
         zipRef.extractall(IMG_FOLDER)
     
     os.remove(ZIP_PATH)
-
-download_data("https://github.com/mrdbourke/pytorch-deep-learning/raw/main/data/pizza_steak_sushi.zip", 'pizza_steak_sushi')
