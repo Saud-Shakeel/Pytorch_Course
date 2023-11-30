@@ -55,7 +55,7 @@ article = "Pytorch Model Deployment"
 # Create examples list from "examples/" directory
 example_path  = Path('D:\Pytorch Course\Model_Deployment\Demo\FoodVision\examples')
 example_list = [["examples/" + example] for example in os.listdir(example_path)]
-print(example_list)
+
 
 #Create the Gradio demo
 demo = gr.Interface(fn=predict, # mapping function from input to output
